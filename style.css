@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #191919;
+}
+
+.bmi-container {
+  width: 70%;
+  background-image: linear-gradient(35deg, #7adcec, #937aec);
+  border-radius: 16px;
+  padding: 1rem;
+  margin-top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 0 30px 2px rgba(255, 255, 255, 0.3);
+}
+
+label {
+  width: 167px;
+  background-image: linear-gradient(#d643f3,#a143f3);
+  padding: .3rem .3rem .3rem .5rem;
+  border-radius: 12px 0 0 12px;
+  margin: 0;
+  color: #fff;
+}
+
+.heightMeter {
+  padding: .3rem 1.1rem;
+}
+
+input {
+  font-size: 1rem;
+  padding: .3rem .5rem .3rem .5rem;
+  border-radius: 0 12px 12px 0;
+  outline: none;
+  border: none;
+  margin: 0;
+}
+
+.result {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.result button {
+  padding: .3em .5em;
+  border-radius: 6px;
+  border: none;
+  margin-top: 1rem;
+}
+
+.result p {
+  width: 100%;
+  background-color: aliceblue;
+  height: 60px;
+  padding: .3rem;
+  border-radius: 8px;
+}
