@@ -6,6 +6,8 @@
 }
 
 body {
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,8 +19,7 @@ body {
   background-image: linear-gradient(35deg, #7adcec, #937aec);
   border-radius: 16px;
   padding: 1rem;
-  margin-top: 50%;
-  transform: translateY(-50%);
+  margin-top: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,4 +72,23 @@ input {
   height: 60px;
   padding: .3rem;
   border-radius: 8px;
+}
+@media screen and (max-width: 600px) {
+  .bmi-container {
+    width: 100%;
+  }
+  label {
+    width: 167px;
+    background-image: linear-gradient(#d643f3,#a143f3);
+    padding: .3rem .3rem .3rem .5rem;
+    border-radius: 12px 12px 0 0;
+    margin: 0;
+    color: #fff;
+  }
+  .input {
+    width: 100%;
+  border-radius: 0 12px 12px 12px;
+
+  }
+
 }
